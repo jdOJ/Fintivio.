@@ -15,6 +15,7 @@ export const Pricing = () => {
             }}
             transition={{
               duration:5,
+              repeat: Infinity,
               repeatType: "loop"
             }}
               className="w-55 h-55 object-contain" 

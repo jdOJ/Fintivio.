@@ -12,10 +12,11 @@ export default function Home() {
     <div className="relative">
       <div 
         style={{ backgroundImage: `url(${Fondo.src})` }}
-        className="bg-scroll w-full h-screen bg-cover bg-center bg-no-repeat"
+        className="bg-scroll w-full h-screen bg-cover bg-center bg-no-repeat  "
       >
         <Header />
         <Hero />
+
       </div>
       <div className="">
        <LogoTicker />

@@ -4,8 +4,8 @@ import Fondo from "@/assets/fondo.jpeg";
 import { LogoTicker } from "@/sections/LogoTicker";
 import { ProductShowcase } from "@/sections/ProductShowcase";
 import { Pricing } from "@/sections/Pricing";
-import { CallToAction } from "@/sections/CallToAction";
 import { Testimonials } from "@/sections/Testimonials";
+import { Footer } from "@/sections/Footer";
 
 export default function Home() {
   return (
@@ -20,9 +20,9 @@ export default function Home() {
       <div className="">
        <LogoTicker />
        <ProductShowcase />
-       
        <Pricing/>
        <Testimonials/>
+       <Footer/>
       </div>
     </div>
   )

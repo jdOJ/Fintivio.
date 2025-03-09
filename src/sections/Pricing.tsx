@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import fint2 from "../assets/Vector.png";
+import { motion } from "framer-motion";
 
 export const Pricing = () => {
   return (
@@ -7,9 +9,16 @@ export const Pricing = () => {
       <div className="container px-4 md:px-6 mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="mb-8 md:mb-0">
-            <Image 
+            <motion.img 
+            animate={{
+              rotate:360
+            }}
+            transition={{
+              duration:5,
+              repeatType: "loop"
+            }}
               className="w-55 h-55 object-contain" 
-              src={fint2} 
+              src={fint2.src} 
               alt="fint2" 
             />
           </div>

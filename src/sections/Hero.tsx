@@ -18,9 +18,11 @@ export const Hero = () => {
             </div>
           </div>
           <div className='mt-20 md:mt-0 md:h-[648px] md:flex-1 '>
-            <Image src={cogImage} alt="cog image" /> */}
+            <Image src={cogImage} alt="cog image" />
         
-          </div>
+          */}
+ </div>
+
         </div>
       </div>
     </section>

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export const Pricing = () => {
   return (
-    <div className="bg-[#9cf] w-full py-48 flex items-center">
+    <div className="bg-[#9cf] w-full py-64 flex items-center">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="mb-8 md:mb-0">
